@@ -1,7 +1,8 @@
 let projectListHTML = '';
-for (i = 2; i<=8;i++){
+for (i = 2; i<=10;i++){
         projectListHTML += `<div class="project"><a href="${i}/index.html"><div class="caption">Day ${i}
         </div><img src="${i}/${i}.png"></a></div>`;
+        
 }
 
 const projectListDiplay = document.querySelector('.projects');
