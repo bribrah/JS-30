@@ -7,7 +7,7 @@ function secretCode(e){
     keysPressed.splice(-theCode.length - 1, keysPressed.length - theCode.length);
     if (keysPressed.join("") == theCode){
         cornify_add();
-        successDisplay.textContent = "WOOOOO YOU GOT IT!!!!"
+        successDisplay.textContent = "WOOOOOO YOU GOT IT!!!!"
     }
 }
 
