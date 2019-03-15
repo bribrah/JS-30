@@ -1,5 +1,5 @@
 let projectListHTML = '';
-for (i = 2; i<=13;i++){
+for (i = 2; i<=15;i++){
         projectListHTML += `<div class="project"><a href="${i}/index.html"><div class="caption">Day ${i}
         </div><img src="${i}/${i}.png"></a></div>`;
         
