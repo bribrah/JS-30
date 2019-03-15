@@ -16,7 +16,6 @@ html {
   .header{
     color: white;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-
   }
   
   svg {
@@ -29,6 +28,7 @@ html {
   }
   
   .wrapper {
+    margin: auto;
     padding: 20px;
     max-width: 350px;
     background: rgba(255,255,255,0.95);

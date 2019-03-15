@@ -34,8 +34,6 @@ function populateList(plates = [], platesList){
 itemsList.addEventListener('click', toggleDone)
 function toggleDone(e){
     if (!e.target.matches('input')) return; //skip unless clicking an input
-    console.log(e.target);
-    console.log(e.target.dataset.index)
     items[e.target.dataset.index].done = !items[e.target.dataset.index].done;
 
 }
