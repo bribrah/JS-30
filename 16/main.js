@@ -6,7 +6,7 @@ function shadow(e){
     let y = e.offsetY;
     const shadowMax = 300;
     if (e.target != container){
-        x += e.target.offsetTop;
+        x += e.target.offsetLeft;
         y += e.target.offsetTop;
     }
     xShadow = (x - container.offsetWidth / 2) /(container.offsetWidth /2);
